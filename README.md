@@ -1,2 +1,2 @@
 # appcan-plugin-package-ios
-iOS插件包
+appcan-ios引擎及插件版本库
