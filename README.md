@@ -1,5 +1,11 @@
 # appcan-release-ios
+### 2015/6/12版本更新记录
 
+####iOS引擎：
+  
+  版本号：ios_Engine_3.1_150612_01    更新内容：修复了在popover页面中不能正确执行openMultiPopover的bug.
+                       ####iOS插件：          1. 插件名称及版本号：uexAreaPickerView --3.0.2
+	 	更新内容：修复了插件会因失去焦点而被错误关闭的bug.
 ***
 
 ### 2015/6/5版本更新记录
