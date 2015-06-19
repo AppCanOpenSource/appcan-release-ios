@@ -1,9 +1,20 @@
 # appcan-release-ios
+### 2015/6/19版本更新记录
+
+####iOS引擎：            版本号：ios_Engine_3.1_150619_01      更新内容： 
+ 1. setMultilPopoverFlippingEnbaled与安卓统一效果
+  2. addSubViewToScrollView 修复手势被网页错误拦截的问题 	          ####iOS插件：
+ 1. 插件名称及版本号：uexEasemob-3.0.9      更新内容： 
+    * 添加getTotalUnreadMsgCount接口
+    * 获取全部公开群改成分页获取
+
+
 ### 2015/6/12版本更新记录
 
 ####iOS引擎：
   
-  版本号：ios_Engine_3.1_150612_01    更新内容：修复了在popover页面中不能正确执行openMultiPopover的bug.
+  版本号：ios_Engine_3.1_150612_01    更新内容：修复了在popover页面中不能正确执行openMultiPopover的bug.
+
                        ####iOS插件：          1. 插件名称及版本号：uexAreaPickerView --3.0.2
 	 	更新内容：修复了插件会因失去焦点而被错误关闭的bug.
 ***
