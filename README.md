@@ -1,4 +1,17 @@
 # appcan-release-ios
+### 2015/6/25版本更新记录
+
+####iOS插件：
+ 1. 插件名称及版本号：uexQQ-3.0.6      更新内容：cbLogin回调结构修正
+ 2. 插件名称及版本号：uexSina-3.0.5      更新内容：注册回调方法名统一修改为uexSina.cbRegisterApp
+ 3. 插件名称及版本号：uexFileMgr-3.0.9
+       更新内容：新增方法uexFileMgr.renameFile 重命名文件及其回调uexFileMgr.cbRenameFile
+ 4. 插件名称及版本号：uexLocalNotification-3.0.2      更新内容：修复iOS8.0+系统上可能不能正常发送通知的bug
+     5. 插件名称及版本号：uexAreaPickerView-3.0.2      更新内容：新增
+ 6. 插件名称及版本号：uexCalendarView-3.0.0      更新内容：新增
+     7. 插件名称及版本号：uexChatKeyboard-3.0.3      更新内容：新增
+ 8. 插件名称及版本号：uexInputTextFieldView-3.0.3      更新内容：新增
+ 9. 插件名称及版本号：uexLoadingView-3.0.3      更新内容：新增   
 ### 2015/6/19版本更新记录
 
 ####iOS引擎：            版本号：ios_Engine_3.1_150619_01      更新内容： 
