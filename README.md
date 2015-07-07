@@ -1,5 +1,8 @@
 # appcan-release-ios
 ### 2015/7/3版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_150706_02      更新内容： 
+ 1. 新增isAppInstalled及回调；新增监听onWindowAppear、onWindowDisappear 2. 新增reload,reloadWidgetByAppId
+ 3. 修改widget未初始化就使用的问题
 
 ####iOS插件：
  1. 插件名称及版本号：uexWeiXin-3.0.15      更新内容：cbStartPay回调结构修正
