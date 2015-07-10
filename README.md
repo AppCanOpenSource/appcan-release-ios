@@ -1,4 +1,21 @@
 # appcan-release-ios
+### 2015/7/10版本更新记录
+
+####iOS插件：
+ 1. 插件名称及版本号：uexLocation-3.0.19      更新内容：修复点击点击返回应用闪退的问题
+ 2. 插件名称及版本号：uexZip-3.0.2         更新内容：解决压缩和解压缩大文件会卡屏的问题
+ 3. 插件名称及版本号：uexFileMgr-3.0.10
+       更新内容：解决多选文件打开浏览器空白问题
+ 4. 插件名称及版本号：uexXmlHttpMgr-3.0.8
+       更新内容：新增API  clearCookie
+     5. 插件名称及版本号：uexClipboard-3.0.2
+       更新内容：修复被复制的文本包含换行符会导致插件异常的bug
+ 6. 插件名称及版本号：uexJPush-3.0.1       更新内容：
+ 	* init接口废弃，现在插件会在App启动时自动初始化（与Android保持一致） 	* 支持onReceiveNotificationOpen接口 用户在点击Apns通知打开App时，会触发此回调     7. 插件名称及版本号：uexEasemob-3.0.10      更新内容：
+    * 现在能够传正确的boolean值true、false给网页，而不是”true” 、”false”	* EMGroup结构回调添加groupName、groupDescription属性，原groupSubject属性废弃 8. 插件名称及版本号：uexChart-3.0.0      更新内容：新增
+    
+ 9. 插件名称及版本号：uexAreaPickerView-3.0.3       更新内容：返回数据添加空格便于分割    
+***
 ### 2015/7/3版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_150706_02      更新内容： 
  1. 新增isAppInstalled及回调；新增监听onWindowAppear、onWindowDisappear 2. 新增reload,reloadWidgetByAppId
@@ -6,7 +23,7 @@
 
 ####iOS插件：
  1. 插件名称及版本号：uexWeiXin-3.0.15      更新内容：cbStartPay回调结构修正
-    
+***    
 ### 2015/6/25版本更新记录
 
 ####iOS插件：
@@ -24,6 +41,7 @@
        更新内容：索引文字支持配置颜色和内容
  11. 插件名称及版本号：uexQQ-3.0.8.zip
        更新内容：不再支持分享至QQ好友的所有相关接口中的cflag可选参数
+***
 ### 2015/6/19版本更新记录
 
 ####iOS引擎：            版本号：ios_Engine_3.1_150619_01      更新内容： 
@@ -33,7 +51,7 @@
     * 添加getTotalUnreadMsgCount接口
     * 获取全部公开群改成分页获取
 
-
+***
 ### 2015/6/12版本更新记录
 
 ####iOS引擎：
