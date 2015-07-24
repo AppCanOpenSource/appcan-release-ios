@@ -3,7 +3,13 @@
 
 ####iOS插件：
  1. 插件名称及版本号：uexWeiXin-3.0.16      更新内容：图文分享添加可选参数title
- 2. 插件名称及版本号：uexGaodeMap-3.0.2      更新内容：新增离线地图相关方法，优化添加标注接口使其支持自定义气泡
+ 2. 插件名称及版本号：uexGaodeMap-3.0.2      更新内容：
+	* 新增removeMarkersOverlays、removeOverlays、setScaleVisible接口    * 现在iOS也支持onMapClickListener 点击地图的监听方法了    * 现在iOS也支持onMapLongClickListener 长按地图的监听方法了    * 新增离线地图相关方法，优化添加标注接口使其支持自定义气泡    * 支持config.xml配置appKey(配合打包服务器公测）    用户需要将如下字段中的XXX替换为自己申请的key，然后添加至config.xml中：
+    	```
+		<config desc="uexGaode" type="KEY" > 	    	<param platform="iOS" name=name="$uexGaodeMap_APIKey$"  value="XXX"/>      	</config>
+	
+		```
+   
 ***
 
 ### 2015/7/17版本更新记录
