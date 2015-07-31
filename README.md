@@ -6,6 +6,8 @@
  2. 插件名称及版本号：uexFileMgr-3.0.11      更新内容：新增cbWiriteFile方法
  3. 插件名称及版本号：uexChatKeyboard-3.0.4
        更新内容：新增API：获取键盘高度
+ 4. 插件名称及版本号：uexBluetoothLE-3.0.0
+ 	更新内容：新增
 ***
 ### 2015/7/24版本更新记录
 
