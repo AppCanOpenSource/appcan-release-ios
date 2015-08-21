@@ -1,4 +1,15 @@
 # appcan-release-ios
+### 2015/8/21版本更新记录
+
+####iOS插件：
+ 1. 插件名称及版本号：uexUploaderMgr-3.0.7      更新内容：修改了请求头的验证
+ 2. 插件名称及版本号：uexDownloaderMgr-3.0.5      更新内容：修改了请求头的验证
+    
+ 3. 插件名称及版本号：uexXmlHttpMgr-3.0.10      更新内容：修改获取appkey的方法
+ 4. 插件名称及版本号：uexEasemob-3.0.13      更新内容：
+    * 修复sendLocation接口 不能正确解析经度的bug	* 修复updatePushOptions 有时会失效的bug 
+ ***
+
 ### 2015/8/14版本更新记录
 
 ####iOS插件：
