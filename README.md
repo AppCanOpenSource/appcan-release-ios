@@ -1,4 +1,12 @@
 # appcan-release-ios
+### 2015/8/25版本更新记录
+
+####iOS插件：
+ 1. 插件名称及版本号：uexJPush-3.0.2
+       更新内容：
+    * 添加对config.xml配置的支持
+    * onReceiveNotificationOpen添加延时
+***
 ### 2015/8/24版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_150824_01      更新内容：
    * 修正盒子用户不能正常解密的bug   * 修正全包加密情况下不能打开http/https网页的BUG   * MBProgressHUD 第三方库更新
