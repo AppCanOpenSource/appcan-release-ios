@@ -1,4 +1,24 @@
 # appcan-release-ios
+### 2015/8/28版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_150828_01      更新内容：
+   * app进入后台时 不再会调用插件的clean方法   * 解决appkey获取不到的问题
+   * 修复关闭侧边栏窗口时的黑屏问题
+   * 优化finishWidget方法
+   * 解决appkey获取不到的问题
+   * 增加uexWindow.getSlidingWindowState()接口及其回调
+
+
+####iOS插件：
+ 1. 插件名称及版本号：uexGaodeMap-3.0.4
+       更新内容：
+    * 添加自定义按钮功能
+    * 地理编码和反地理编码的回调添加参数,方便用户区分
+ 2. 插件名称及版本号：uexActionSheet-3.0.6
+       更新内容：修复textNColor属性失效的bug
+ 3. 插件名称及版本号：uexJPush-3.0.3
+       更新内容：修改推送的extras为字典格式   
+***
+
 ### 2015/8/25版本更新记录
 
 ####iOS插件：
