@@ -1,4 +1,25 @@
 # appcan-release-ios
+### 2015/9/14版本更新记录
+
+####iOS插件：
+ 1. 插件名称及版本号：uexESurfingRtc-3.0.6       更新内容：增加appid 和appkey 回调
+
+***
+
+### 2015/9/11版本更新记录
+####iOS插件：
+ 1. 插件名称及版本号：uexXmlHttpMgr-3.0.12
+       更新内容：setAppVerify新增加appId的信息
+ 2. 插件名称及版本号：uexUploaderMgr-3.0.12
+        更新内容：修改clean方法,setAppVerify新增加appId的信息
+ 3. 插件名称及版本号：uexQQ-3.0.9
+       更新内容：修复取消登录时cbLogin不触发的bug     4. 插件名称及版本号：uexLog-3.0.3
+       更新内容：修复崩溃问题
+ 5. 插件名称及版本号：uexJPush-3.0.4
+       更新内容：新增接口setBadgeNumber
+ 6. 插件名称及版本号：uexDownloaderMgr-3.0.6
+       更新内容：setAppVerify新增加appId的信息
+***    
 ### 2015/8/28版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_150828_01      更新内容：
    * app进入后台时 不再会调用插件的clean方法   * 解决appkey获取不到的问题
