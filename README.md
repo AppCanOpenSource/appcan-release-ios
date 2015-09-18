@@ -1,8 +1,11 @@
 # appcan-release-ios
-### 2015/9/14版本更新记录
+### 2015/9/18版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_150918_01      更新内容：EUtility添加方法bundleForPlugin
+
 
 ####iOS插件：
- 1. 插件名称及版本号：uexESurfingRtc-3.0.6       更新内容：增加appid 和appkey 回调
+ 1. 插件名称及版本号：uexChatKeyboard-3.0.10       更新内容：
+    * 新增 onKeyBoardShow监听方法 changeWebViewFrame方法(仅iOS) hideKeyboard方法 onCommitJson方法	* open接口新增参数inputMode默认输入方式。
 
 ***
 
