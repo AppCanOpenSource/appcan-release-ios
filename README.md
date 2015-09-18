@@ -6,6 +6,8 @@
 ####iOS插件：
  1. 插件名称及版本号：uexChatKeyboard-3.0.10       更新内容：
     * 新增 onKeyBoardShow监听方法 changeWebViewFrame方法(仅iOS) hideKeyboard方法 onCommitJson方法	* open接口新增参数inputMode默认输入方式。
+ 2. 插件名称及版本号：uexFileMgr-3.0.12       更新内容：新增方法search 搜索文件/文件夹
+
 
 ***
 
