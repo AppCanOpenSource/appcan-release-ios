@@ -1,4 +1,8 @@
 # appcan-release-ios
+### 2015/9/21版本更新记录
+####iOS插件：
+1. 插件名称及版本号：uexGaodeMap-3.0.6.zip       更新内容：open接口增加地图是否随网页滚动接口
+***
 ### 2015/9/18版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_150918_01      更新内容：EUtility添加方法bundleForPlugin
 
