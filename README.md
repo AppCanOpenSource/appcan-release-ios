@@ -1,7 +1,19 @@
 # appcan-release-ios
+
+### 2015/9/25版本更新记录
+####iOS插件：
+1. 插件名称及版本号：uexGaodeMap-3.0.7       更新内容：
+    * AddCircleOverlay中 修改默认lineDash值为NO
+    * 当回调的json结构为String时，不再转义一次
+    
+2. 插件名称及版本号：uexUnisound-3.0.0       更新内容：新增
+
+3. 插件名称及版本号：uexJsonXmlTrans-3.0.0       更新内容：新增
+ 
+***
 ### 2015/9/21版本更新记录
 ####iOS插件：
-1. 插件名称及版本号：uexGaodeMap-3.0.6.zip       更新内容：open接口增加地图是否随网页滚动接口
+1. 插件名称及版本号：uexGaodeMap-3.0.6       更新内容：open接口增加地图是否随网页滚动接口
 ***
 ### 2015/9/18版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_150918_01      更新内容：EUtility添加方法bundleForPlugin
