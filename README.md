@@ -1,4 +1,16 @@
 # appcan-release-ios
+### 2015/10/10版本更新记录
+####iOS插件：
+ 1. 插件名称及版本号：uexChatKeyboard-3.0.12
+       更新内容：修复关闭输入法后窗口显示不正常的bug
+ 2. 插件名称及版本号：uexDownloaderMgr-3.0.7
+        更新内容：xcode7修正
+ 3. 插件名称及版本号：uexBluetoothLE-3.0.1
+       更新内容：
+    * 修改读写的字符串均为为Base64编码
+    * 添加cbInit回调     4. 插件名称及版本号：uexFileMgr-3.0.16
+       更新内容：getFileListByPath不再返回其子目录下的文件路径、不再包含多余的'/'
+***
 
 ### 2015/9/25版本更新记录
 ####iOS插件：
