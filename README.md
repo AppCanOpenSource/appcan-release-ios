@@ -1,4 +1,16 @@
 # appcan-release-ios
+### 2015/10/16版本更新记录
+####iOS插件：
+ 1. 插件名称及版本号：uexBaiduMap-3.1.12
+       更新内容：修复onMapLongClickListener回调结果异常的bug
+ 2. 插件名称及版本号：uexDevice-3.0.3        更新内容：设备列表更新
+ 3. 插件名称及版本号：uexEasemob-3.0.14
+       更新内容：
+    * cbLogin 返回信息修改为”msg” 与文档一致    * cbLogin 和cbRegisterUser 会返回失败时的错误信息了     4. 插件名称及版本号：uexEmail-3.0.3
+       更新内容：修复设置多个附件时,不能正确读取协议路径文件的bug
+ 5. 插件名称及版本号：uexQQ-3.0.10
+       更新内容：修复使用腾讯第三方TencentOpenApi_IOS_Bundle.bundle,用Xcode7上传archive的时候报unexpected CFBundleExecutable Key的错误.
+***
 ### 2015/10/10版本更新记录
 ####iOS插件：
  1. 插件名称及版本号：uexChatKeyboard-3.0.12
