@@ -1,5 +1,8 @@
 # appcan-release-ios
 ### 2015/10/23版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_151026_01      更新内容：修改4.0数据统计的方法
+  ***
+### 2015/10/23版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_151022_01      更新内容：
    * 开发工具类EUtility添加国际化方法，支持插件国际化;   * 添加接口uexWindow.disturbLongPressGesture 
 
