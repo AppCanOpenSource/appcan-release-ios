@@ -1,4 +1,12 @@
 # appcan-release-ios
+### 2015/10/23版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_151022_01      更新内容：
+   * 开发工具类EUtility添加国际化方法，支持插件国际化;   * 添加接口uexWindow.disturbLongPressGesture 
+
+
+####iOS插件：
+ 1. 插件名称及版本号：uexBluetoothLE-3.0.2       更新内容：修复一个可能会导致Characteristic写入失败的bug 2. 插件名称及版本号：uexJPush-3.0.5        更新内容：    * 新增接口 disableLocalNotificationAlertView  禁止显示前台本地通知提示框 (仅iOS)    * onReceiveNotification 接口添加参数 isAPNs:,//Boolean (仅iOS)  推送是否来自APNs    * onReceiveNotification 现在也可以接收本地通知    * onReceiveNotificationOpen 接口添加参数 isAPNs:,//Boolean (仅iOS)  推送是否来自APNs    * onReceiveNotificationOpen 现在也会被 "点击本地通知打开APP” 这一事件触发  3. 插件名称及版本号：uexQQ-3.0.11       更新内容：    * 修复了一个在传参错误的情况下可能会导致闪退的bug    * sdk版本升级至2.9.2，修复了若干Xcode7+iOS9下的兼容性bug 4. 插件名称及版本号：uexTouchID-3.0.0       更新内容：新增   5. 插件名称及版本号：uexImage-3.0.0       更新内容：新增  6. 插件名称及版本号：uexBaiduMap-3.1.13       更新内容：国际化7. 插件名称及版本号：uexCalendarView-3.0.1       更新内容：国际化8. 插件名称及版本号：uexControl-3.0.12       更新内容：国际化9. 插件名称及版本号：uexEmail-3.0.4       更新内容：国际化10. 插件名称及版本号：uexFileMgr-3.0.17       更新内容：国际化11. 插件名称及版本号：uexLocalNotification-3.0.4       更新内容：国际化12. 插件名称及版本号：uexLocation-3.0.20       更新内容：国际化13. 插件名称及版本号：uexPDFReader-3.0.3       更新内容：国际化14. 插件名称及版本号：uexXmlHttpMgr-3.0.13       更新内容：国际化
+
 ### 2015/10/16版本更新记录
 ####iOS插件：
  1. 插件名称及版本号：uexBaiduMap-3.1.12
