@@ -1,4 +1,12 @@
 # appcan-release-ios
+### 2015/10/30版本更新记录
+####iOS插件：
+1. 插件名称及版本号：uexAreaPickerView-3.0.4       更新内容： 修复clean时崩溃的问题   2. 插件名称及版本号：uexQQ-3.0.12       更新内容：删去腾讯SDK中的info.plist,解决上架AppStore出现ERROR ITMS-90049的问题
+    3. 插件名称及版本号：uexImage-3.0.1       更新内容：    * 删掉bundle中的info.plist 解决上架AppStore会提示Error:90535的问题    * 修复openCropper没有国际化的问题4. 插件名称及版本号：uexTestinCrash-3.0.1       更新内容： 升级SDK至2.0.6
+    5. 插件名称及版本号：uexEasemob-3.0.15       更新内容：    * SDK版本更新至V2.2.0r1    * 修复iOS和Android之间互发消息时ext属性丢失的bug6. 插件名称及版本号：uexCalendarView-3.0.2       更新内容： 删除info.plist7. 插件名称及版本号：uexControl-3.0.13       更新内容： 删除info.plist8. 插件名称及版本号：uexEmail-3.0.5       更新内容： 删除info.plist9. 插件名称及版本号：uexFileMgr-3.0.18       更新内容： 删除info.plist10. 插件名称及版本号：uexBaiduMap-3.1.14       更新内容： 删除info.plist11. 插件名称及版本号：uexLocalNotification-3.0.5       更新内容： 删除info.plist12. 插件名称及版本号：uexLocation-3.0.21       更新内容： 删除info.plist13. 插件名称及版本号：uexPDFReader-3.0.4       更新内容： 删除info.plist14. 插件名称及版本号：uexXmlHttpMgr-3.0.14       更新内容： 删除info.plist   
+15. 插件名称及版本号：uexJPush-3.0.6       更新内容：修复root页面回调失效的bug16. 插件名称及版本号：uexScrollPicture-3.0.1       更新内容：支持加载网络路径的图片
+***
+
 ### 2015/10/27版本更新记录
 ####iOS引擎：            版本号：ios_Engine_3.1_151027_01      更新内容：修复close回到root页面可能会导致闪退的bug
   ***
