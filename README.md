@@ -1,9 +1,17 @@
 # appcan-release-ios
+### 2015/11/13版本更新记录
+####iOS引擎：
+版本号：ios_Engine_3.2_151113_01
+更新内容：* 现在在root页面加载完成后 经过500ms的延时 启动图才会关闭。解决在部分设备上，应用启动之后会黑屏闪一下的问题。
+####iOS插件：
+1. 插件名称及版本号：uexKeyChain-3.0.0    更新内容： 新增（仅ios）更新到文档和插件中心 
+2. 插件名称及版本号：uexWeiXin-3.0.17
+   更新内容： * 新增一版微信登陆、获取acess_token、获取用户信息acess_token、校验acess_token、刷新acess_token接口；
 ### 2015/10/30版本更新记录
 ####iOS引擎： 1. 插件名称及版本号：ios_Engine_3.1_151109_01       更新内容： 
         更新：	* 引擎自带的系统提示现在已经国际化了（目前支持简体中文和英文）	* (for 插件开发者) EUtility工具类添加了几个非常有用的接口，方便插件管理资源文件 插件国际化 以及插件进行js回调	* (for 插件开发者) 插件EUEx类现在可以通过类方法+(void)application:performActionForShortcutItem:completionHandler: 和+(void)application:didReceiveRemoteNotification:fetchCompletionHandler: 捕获到相应的系统事件	* (for 插件开发者) 插件EUEx类现在可以通过类方法+(void)rootPageDidFinishLoading 捕获到 root网页加载完成 这个AppCan事件	* 引擎现在支持3DTouch长按手势，可以实现快速跳转到APP指定页面的效果（详见插件uex3DTouch)
 		优化:	* 优化了openMultiPopover接口，现在此接口会先打开当前指定页面，再预加载其他的页面，因此大大减少了从调用此接口到显示页面的时间。	* 现在打包得到的APP文件明显变小了	* 优化了APP的启动速度，启动时间及显示启动图的时间均变短了
-		修复bugs:	* 修复Xcode7以及iOS9的诸多兼容性bug	* 修复在开启侧滑关闭后uexWindow.onWindowAppear和uexWindow.onWindowDisappear可能会失效的bug	* 修复听云检测到的一个可能会导致APP崩溃的bug####iOS引擎： 1. 插件名称及版本号：uex3DTouch-3.0.0       更新内容： 新增 
+		修复bugs:	* 修复Xcode7以及iOS9的诸多兼容性bug	* 修复在开启侧滑关闭后uexWindow.onWindowAppear和uexWindow.onWindowDisappear可能会失效的bug	* 修复听云检测到的一个可能会导致APP崩溃的bug####iOS插件： 1. 插件名称及版本号：uex3DTouch-3.0.0       更新内容： 新增 
     ***
 ### 2015/10/30版本更新记录
 ####iOS插件：
