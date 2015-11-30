@@ -1,4 +1,10 @@
 # appcan-release-ios
+### 2015/11/30版本更新记录
+####iOS插件：
+1. 版本号：uexSina-3.0.6
+   更新内容：替换SinaSDK，重写授权登陆相关接口；新增login、logout、getUserInfo接口；2. 版本号：uexChatKeyboard-3.0.17
+   更新内容：修改了点击发送不收回键盘
+***
 ### 2015/11/23版本更新记录
 ####iOS插件：
 1. 插件名称及版本号：uexDownloaderMgr-3.0.11       更新内容： 
