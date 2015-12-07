@@ -1,4 +1,9 @@
 # appcan-release-ios
+### 2015/12/07版本更新记录
+####iOS插件：
+1. 版本号：uexDownloaderMgr-3.0.12     更新内容：修改了下载时进度条不动的BUG   2. 版本号：uexUploaderMgr-3.0.13     更新内容：修改了上传进度条达不到100%3. 版本号：uexLocation-3.0.22     更新内容：更改为ARC工程
+***
+
 ### 2015/12/04版本更新记录
 ####iOS插件：
 1. 版本号：uexAudio-3.0.11
