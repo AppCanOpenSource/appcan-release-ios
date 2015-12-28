@@ -1,4 +1,8 @@
 # appcan-release-ios
+### 2015/12/26版本更新记录
+####iOS插件：
+1. 版本号：uexImage-3.0.5     更新内容：    * 新增接口setIpadPopEnable    * 添加IDE支持2. 版本号：uexScanner-3.1.4     更新内容：    * 重构:改用ZXing识别二维码    * 添加IDE支持3. 版本号：uexChart-3.0.3     更新内容：    * barChart和lineChart新增option参数    * 使用Swift2.1编译，支持IDE ***
+
 ### 2015/12/19版本更新记录
 ####iOS插件：
 1. 版本号：uexChatKeyboard-3.0.20   更新内容：    * 修复确定按钮出现AppCan背景图的问题    * 修改键盘弹出时页面弹动    * 修复自定义功能按钮和表情按钮重新打开会弹出键盘的bug2. 版本号：uexEasemob-3.0.16   更新内容：修复cbGetGroup回调结构和Android不一致的问题3. 版本号：uexGestureUnlock-3.0.1   更新内容：新增4. 版本号：uexUmeng-3.0.1   更新内容：新增 5. 版本号：uexUnionPay-3.0.0   更新内容：新增  ***
