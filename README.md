@@ -1,4 +1,8 @@
 # appcan-release-ios
+### 2015/12/31版本更新记录
+####iOS插件：
+1. 版本号：uexEasemob-3.0.17     更新内容：* 修复getMessageHistory接口传入startMsgId但pagesize为0时取不到所有messages的问题2. 版本号：uexWeiXin-3.0.18     更新内容：    * 重写回调相关代码，支持setCallbackWindowName接口    * 添加IDE支持 ***
+
 ### 2015/12/26版本更新记录
 ####iOS插件：
 1. 版本号：uexImage-3.0.5     更新内容：    * 新增接口setIpadPopEnable    * 添加IDE支持2. 版本号：uexScanner-3.1.4     更新内容：    * 重构:改用ZXing识别二维码    * 添加IDE支持3. 版本号：uexChart-3.0.3     更新内容：    * barChart和lineChart新增option参数    * 使用Swift2.1编译，支持IDE ***
