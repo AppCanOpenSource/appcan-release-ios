@@ -1,4 +1,112 @@
 # appcan-release-ios
+### 2015/12/31版本更新记录
+####iOS插件：
+1. 版本号：uexEasemob-3.0.17     更新内容：* 修复getMessageHistory接口传入startMsgId但pagesize为0时取不到所有messages的问题2. 版本号：uexWeiXin-3.0.18     更新内容：    * 重写回调相关代码，支持setCallbackWindowName接口    * 添加IDE支持 ***
+
+### 2015/12/26版本更新记录
+####iOS插件：
+1. 版本号：uexImage-3.0.5     更新内容：    * 新增接口setIpadPopEnable    * 添加IDE支持2. 版本号：uexScanner-3.1.4     更新内容：    * 重构:改用ZXing识别二维码    * 添加IDE支持3. 版本号：uexChart-3.0.3     更新内容：    * barChart和lineChart新增option参数    * 使用Swift2.1编译，支持IDE ***
+
+### 2015/12/19版本更新记录
+####iOS插件：
+1. 版本号：uexChatKeyboard-3.0.20   更新内容：    * 修复确定按钮出现AppCan背景图的问题    * 修改键盘弹出时页面弹动    * 修复自定义功能按钮和表情按钮重新打开会弹出键盘的bug2. 版本号：uexEasemob-3.0.16   更新内容：修复cbGetGroup回调结构和Android不一致的问题3. 版本号：uexGestureUnlock-3.0.1   更新内容：新增4. 版本号：uexUmeng-3.0.1   更新内容：新增 5. 版本号：uexUnionPay-3.0.0   更新内容：新增  ***
+
+### 2015/12/07版本更新记录
+####iOS插件：
+1. 版本号：uexDownloaderMgr-3.0.12     更新内容：修改了下载时进度条不动的BUG   2. 版本号：uexUploaderMgr-3.0.13     更新内容：修改了上传进度条达不到100%3. 版本号：uexLocation-3.0.22     更新内容：更改为ARC工程
+***
+
+### 2015/12/04版本更新记录
+####iOS插件：
+1. 版本号：uexAudio-3.0.11
+   更新内容：支持后台播放音频，需配置相关权限
+***
+
+### 2015/12/03版本更新记录
+####iOS引擎：
+ 版本号：ios_Engine_3.2_151203_01 更新内容：修复应用通过点击APNs推送启动时，pushNotify不触发的问题
+####iOS插件：
+1. 版本号：uexJPush-3.0.7
+   更新内容：现在应用在后台时，点击推送，会正确的触发onReceiveNotificationOpen；
+***
+
+### 2015/11/30版本更新记录
+####iOS插件：
+1. 版本号：uexSina-3.0.6
+   更新内容：替换SinaSDK，重写授权登陆相关接口；新增login、logout、getUserInfo接口；2. 版本号：uexChatKeyboard-3.0.17
+   更新内容：修改了点击发送不收回键盘
+***
+### 2015/11/23版本更新记录
+####iOS插件：
+1. 插件名称及版本号：uexDownloaderMgr-3.0.11       更新内容： 
+	* 修改请求的变量	* 修改clean方法	* 验证的请求头的中的appid与key不匹配	* 判断当前的验证的请求头的属于的应用
+	
+2. 版本号：uexBaiduMap-3.1.15   更新内容：修改插件，使其支持config配置APIKey***
+### 2015/11/19版本更新记录
+####iOS插件：
+1. 插件名称及版本号：uexImage-3.0.3       更新内容： 删去资源包中多余的info.plist
+***
+### 2015/11/13版本更新记录
+####iOS引擎：
+版本号：ios_Engine_3.2_151113_01
+更新内容：* 现在在root页面加载完成后 经过500ms的延时 启动图才会关闭。解决在部分设备上，应用启动之后会黑屏闪一下的问题。
+####iOS插件：
+1. 插件名称及版本号：uexKeyChain-3.0.0    更新内容： 新增（仅ios）更新到文档和插件中心 
+2. 插件名称及版本号：uexWeiXin-3.0.17
+   更新内容： * 新增一版微信登陆、获取acess_token、获取用户信息acess_token、校验acess_token、刷新acess_token接口；
+### 2015/10/30版本更新记录
+####iOS引擎： 1. 插件名称及版本号：ios_Engine_3.1_151109_01       更新内容： 
+        更新：	* 引擎自带的系统提示现在已经国际化了（目前支持简体中文和英文）	* (for 插件开发者) EUtility工具类添加了几个非常有用的接口，方便插件管理资源文件 插件国际化 以及插件进行js回调	* (for 插件开发者) 插件EUEx类现在可以通过类方法+(void)application:performActionForShortcutItem:completionHandler: 和+(void)application:didReceiveRemoteNotification:fetchCompletionHandler: 捕获到相应的系统事件	* (for 插件开发者) 插件EUEx类现在可以通过类方法+(void)rootPageDidFinishLoading 捕获到 root网页加载完成 这个AppCan事件	* 引擎现在支持3DTouch长按手势，可以实现快速跳转到APP指定页面的效果（详见插件uex3DTouch)
+		优化:	* 优化了openMultiPopover接口，现在此接口会先打开当前指定页面，再预加载其他的页面，因此大大减少了从调用此接口到显示页面的时间。	* 现在打包得到的APP文件明显变小了	* 优化了APP的启动速度，启动时间及显示启动图的时间均变短了
+		修复bugs:	* 修复Xcode7以及iOS9的诸多兼容性bug	* 修复在开启侧滑关闭后uexWindow.onWindowAppear和uexWindow.onWindowDisappear可能会失效的bug	* 修复听云检测到的一个可能会导致APP崩溃的bug####iOS插件： 1. 插件名称及版本号：uex3DTouch-3.0.0       更新内容： 新增 
+    ***
+### 2015/10/30版本更新记录
+####iOS插件：
+1. 插件名称及版本号：uexAreaPickerView-3.0.4       更新内容： 修复clean时崩溃的问题   2. 插件名称及版本号：uexQQ-3.0.12       更新内容：删去腾讯SDK中的info.plist,解决上架AppStore出现ERROR ITMS-90049的问题
+    3. 插件名称及版本号：uexImage-3.0.1       更新内容：    * 删掉bundle中的info.plist 解决上架AppStore会提示Error:90535的问题    * 修复openCropper没有国际化的问题4. 插件名称及版本号：uexTestinCrash-3.0.1       更新内容： 升级SDK至2.0.6
+    5. 插件名称及版本号：uexEasemob-3.0.15       更新内容：    * SDK版本更新至V2.2.0r1    * 修复iOS和Android之间互发消息时ext属性丢失的bug6. 插件名称及版本号：uexCalendarView-3.0.2       更新内容： 删除info.plist7. 插件名称及版本号：uexControl-3.0.13       更新内容： 删除info.plist8. 插件名称及版本号：uexEmail-3.0.5       更新内容： 删除info.plist9. 插件名称及版本号：uexFileMgr-3.0.18       更新内容： 删除info.plist10. 插件名称及版本号：uexBaiduMap-3.1.14       更新内容： 删除info.plist11. 插件名称及版本号：uexLocalNotification-3.0.5       更新内容： 删除info.plist12. 插件名称及版本号：uexLocation-3.0.21       更新内容： 删除info.plist13. 插件名称及版本号：uexPDFReader-3.0.4       更新内容： 删除info.plist14. 插件名称及版本号：uexXmlHttpMgr-3.0.14       更新内容： 删除info.plist   
+15. 插件名称及版本号：uexJPush-3.0.6       更新内容：修复root页面回调失效的bug16. 插件名称及版本号：uexScrollPicture-3.0.1       更新内容：支持加载网络路径的图片
+***
+
+### 2015/10/27版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_151027_01      更新内容：修复close回到root页面可能会导致闪退的bug
+  ***
+
+### 2015/10/26版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_151026_01      更新内容：修改4.0数据统计的方法
+  ***
+### 2015/10/23版本更新记录
+####iOS引擎：            版本号：ios_Engine_3.1_151022_01      更新内容：
+   * 开发工具类EUtility添加国际化方法，支持插件国际化;   * 添加接口uexWindow.disturbLongPressGesture 
+
+
+####iOS插件：
+ 1. 插件名称及版本号：uexBluetoothLE-3.0.2       更新内容：修复一个可能会导致Characteristic写入失败的bug 2. 插件名称及版本号：uexJPush-3.0.5        更新内容：    * 新增接口 disableLocalNotificationAlertView  禁止显示前台本地通知提示框 (仅iOS)    * onReceiveNotification 接口添加参数 isAPNs:,//Boolean (仅iOS)  推送是否来自APNs    * onReceiveNotification 现在也可以接收本地通知    * onReceiveNotificationOpen 接口添加参数 isAPNs:,//Boolean (仅iOS)  推送是否来自APNs    * onReceiveNotificationOpen 现在也会被 "点击本地通知打开APP” 这一事件触发  3. 插件名称及版本号：uexQQ-3.0.11       更新内容：    * 修复了一个在传参错误的情况下可能会导致闪退的bug    * sdk版本升级至2.9.2，修复了若干Xcode7+iOS9下的兼容性bug 4. 插件名称及版本号：uexTouchID-3.0.0       更新内容：新增   5. 插件名称及版本号：uexImage-3.0.0       更新内容：新增  6. 插件名称及版本号：uexBaiduMap-3.1.13       更新内容：国际化7. 插件名称及版本号：uexCalendarView-3.0.1       更新内容：国际化8. 插件名称及版本号：uexControl-3.0.12       更新内容：国际化9. 插件名称及版本号：uexEmail-3.0.4       更新内容：国际化10. 插件名称及版本号：uexFileMgr-3.0.17       更新内容：国际化11. 插件名称及版本号：uexLocalNotification-3.0.4       更新内容：国际化12. 插件名称及版本号：uexLocation-3.0.20       更新内容：国际化13. 插件名称及版本号：uexPDFReader-3.0.3       更新内容：国际化14. 插件名称及版本号：uexXmlHttpMgr-3.0.13       更新内容：国际化
+
+### 2015/10/16版本更新记录
+####iOS插件：
+ 1. 插件名称及版本号：uexBaiduMap-3.1.12
+       更新内容：修复onMapLongClickListener回调结果异常的bug
+ 2. 插件名称及版本号：uexDevice-3.0.3        更新内容：设备列表更新
+ 3. 插件名称及版本号：uexEasemob-3.0.14
+       更新内容：
+    * cbLogin 返回信息修改为”msg” 与文档一致    * cbLogin 和cbRegisterUser 会返回失败时的错误信息了     4. 插件名称及版本号：uexEmail-3.0.3
+       更新内容：修复设置多个附件时,不能正确读取协议路径文件的bug
+ 5. 插件名称及版本号：uexQQ-3.0.10
+       更新内容：修复使用腾讯第三方TencentOpenApi_IOS_Bundle.bundle,用Xcode7上传archive的时候报unexpected CFBundleExecutable Key的错误.
+***
+### 2015/10/10版本更新记录
+####iOS插件：
+ 1. 插件名称及版本号：uexChatKeyboard-3.0.12
+       更新内容：修复关闭输入法后窗口显示不正常的bug
+ 2. 插件名称及版本号：uexDownloaderMgr-3.0.7
+        更新内容：xcode7修正
+ 3. 插件名称及版本号：uexBluetoothLE-3.0.1
+       更新内容：
+    * 修改读写的字符串均为为Base64编码
+    * 添加cbInit回调     4. 插件名称及版本号：uexFileMgr-3.0.16
+       更新内容：getFileListByPath不再返回其子目录下的文件路径、不再包含多余的'/'
+***
 
 ### 2015/9/25版本更新记录
 ####iOS插件：
