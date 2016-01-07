@@ -1,4 +1,10 @@
 # appcan-release-ios
+### 2016/01/07版本更新记录
+####iOS插件：
+1.版本号：uexWeiXin-3.0.19  更新内容：
+   * 修复getWeiXinLoginAccessToken失效的bug
+ * 修复getLoginAccessToken在多次调用时无法刷新code导致结果异常的bug ***
+
 ### 2015/12/31版本更新记录
 ####iOS插件：
 1. 版本号：uexEasemob-3.0.17     更新内容：* 修复getMessageHistory接口传入startMsgId但pagesize为0时取不到所有messages的问题2. 版本号：uexWeiXin-3.0.18     更新内容：    * 重写回调相关代码，支持setCallbackWindowName接口    * 添加IDE支持 ***
