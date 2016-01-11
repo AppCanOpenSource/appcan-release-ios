@@ -1,4 +1,19 @@
 # appcan-release-ios
+### 2016/01/11版本更新记录
+####iOS引擎：
+ 版本号：ios_Engine_3.2_160109_01 更新内容：* uexWindow.createProgressDialog uexWindow.destroyProgressDialog 这2个接口 现在支持iOS
+####iOS插件：
+1. 版本号：uexBluetoothLE-3.0.4
+   更新内容：* 修复cbInit回调参数错误的bug
+1. 版本号：uexContact-3.0.7
+   更新内容：* searchItem接口增加返回信息条数配置;addItem接口增加是否弹出提示框配置
+1. 版本号：uexESurfingRtc-3.0.8
+   更新内容：* 修改onGlobalStatus与cbCallStatus
+1. 版本号：uexGaodeMap-3.0.9
+   更新内容：
+   * 添加IDE支持   * 可以通过接口设置APIKey   * 解决和高德导航冲突的问题
+***
+
 ### 2016/01/07版本更新记录
 ####iOS插件：
 1.版本号：uexWeiXin-3.0.19  更新内容：
