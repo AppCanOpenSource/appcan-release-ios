@@ -1,15 +1,23 @@
 # appcan-release-ios
+### 2016/01/26版本更新记录
+####iOS引擎：
+ 版本号：ios_Engine_3.2_160121_01 更新内容：
+ * IDE下首次启动读取document下的widget包. * 修复iOS窗口打开路径问题,4.0云平台配置项引擎修改
+####iOS插件：
+1. 版本号：uexSina-3.0.6  更新内容：* uexSina添加分享图片可以分享网络图片的功能2. 版本号：uexWheel-3.0.14  更新内容：* 修复和天翼RTC插件一起打包时会冲突的bug    3. 版本号：uexAudio-3.0.13  更新内容：  * uexAudio插件有更新，修改amr格式文件路径不存在时播放崩溃  * uexAudio修复播放AMR音频完成时没有回调的问题4. 版本号：uexInputTextFieldView-3.0.7  更新内容： * 修复索引bundle内资源的路径错误而无法显示图片背景的BUG
+  ***
+
 ### 2016/01/11版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.2_160109_01 更新内容：* uexWindow.createProgressDialog uexWindow.destroyProgressDialog 这2个接口 现在支持iOS
 ####iOS插件：
 1. 版本号：uexBluetoothLE-3.0.4
    更新内容：* 修复cbInit回调参数错误的bug
-1. 版本号：uexContact-3.0.7
+2. 版本号：uexContact-3.0.7
    更新内容：* searchItem接口增加返回信息条数配置;addItem接口增加是否弹出提示框配置
-1. 版本号：uexESurfingRtc-3.0.8
+3. 版本号：uexESurfingRtc-3.0.8
    更新内容：* 修改onGlobalStatus与cbCallStatus
-1. 版本号：uexGaodeMap-3.0.9
+4. 版本号：uexGaodeMap-3.0.9
    更新内容：
    * 添加IDE支持   * 可以通过接口设置APIKey   * 解决和高德导航冲突的问题
 ***
