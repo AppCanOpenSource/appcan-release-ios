@@ -1,4 +1,9 @@
 # appcan-release-ios
+### 2016/02/24版本更新记录
+####iOS插件：
+1. 版本号：uexDevice-3.0.7
+    更新内容：* openSetting接口支持打开推送通知设置2. 版本号：uexControl-3.0.15   更新内容：* 修改无法打开带配置的日期选择器的BUG3. 版本号：uexSegmentControl-3.0.3   更新内容：* 修复onItemClick接口回调参数与文档及安卓不一致的BUG
+   ***
 ### 2016/02/22版本更新记录
 ####iOS插件：
 1. 版本号：uexDevice-3.0.6   更新内容：* 添加判断功能是否开启,以及打开设置界面接口2. 版本号：uexScrollPicture-3.0.3   更新内容：* 修复回调可能会被错误触发的bug3. 版本号：uexImage-3.0.8   更新内容：* openPicker接口打开相册时，默认滑动至最底端，以显示最新拍摄的照片4. 版本号：uexFileMgr-3.0.23   更新内容：* 修改工程为ARC;修复在复用窗口中使用时回调丢失的bug  ***
