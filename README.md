@@ -1,4 +1,12 @@
 # appcan-release-ios
+### 2016/03/02版本更新记录
+####iOS引擎：
+ 版本号：ios_Engine_3.2_160224_01 更新内容：* 修复config.xml中配置的起始页面不支持https://协议的问题
+ 
+####iOS插件：
+1. 版本号：uexCalendarView-3.0.5  更新内容：* 修复uexCalendarView切换年份时触发click事件的bug2. 版本号：uexDownloaderMgr-3.0.14  更新内容：* 修复在复用窗口中使用时回调丢失的bug3. 版本号：uexInAppPurchase-3.0.0   更新内容：* 新增iOS内购插件4. 版本号： uexScrollPicture-3.0.4   更新内容：    * 修复手滑动的时候下面轮播点不变的bug;    * 修改为不主动自动轮播    * 修改了轮播点颜色                                                                                       * 修复了viewId传Number会挂掉的bug    5. 版本号： uexAudio-3.0.14   更新内容：* 修改audio录的本地录音传到服务器上放不了bug6. 版本号： uexEasemob-3.0.19   更新内容：* 修复onMessageSent中群组消息的from和to参数不正确的问题7. 版本号： uexSecurityKeyboard-3.0.0   更新内容：* 新增uexSecurityKeyboard安全键盘输入框插件   
+  ***
+
 ### 2016/02/24版本更新记录
 ####iOS插件：
 1. 版本号：uexDevice-3.0.7
