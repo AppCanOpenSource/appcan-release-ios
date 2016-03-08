@@ -1,4 +1,103 @@
 # appcan-release-ios
+### 2016/03/08版本更新记录
+####iOS插件：
+1.版本号：uexCreditCardRec-3.0.4
+更新内容：* 支持iOS9
+
+2.版本号：uexGestureUnlock-3.0.2
+更新内容：* 复maximumAllowTrialTimes拼写错误
+
+3.版本号：uexPDFReader-3.0.5
+更新内容：* 删除info.plist
+
+4.版本号：uexActionSheet-3.0.7
+更新内容：* 修复textNColor属性失效的bug
+
+5.版本号：uexAreaPickerView-3.0.5	
+更新内容：* 修复clean时的崩溃问题
+
+6.版本号：uexButton-3.0.5	
+更新内容：* 修复uexButton动态库在低版本手机上无法调用的问题
+
+7.版本号：uexButton-3.0.5	
+更新内容：* 修复uexButton动态库在低版本手机上无法调用的问题
+
+8.版本号：uexChatKeyboard-3.0.21	
+更新内容：* 修复自定义功能按钮和表情按钮重新打开会弹出键盘的bug
+
+9.版本号：uexCoverFlow2-3.0.3
+更新内容：* 使用新版Xcode重新编译,支持arm64
+
+10.版本号：uexEditDialog-3.0.2
+更新内容：* 使用新版Xcode重新编译,支持arm64
+
+11.版本号：uexHexagonal-3.0.3
+更新内容：* 使用新版Xcode重新编译,支持arm64
+
+12.版本号：uexIndexBar-3.0.7
+更新内容：* 索引表可以设置是否随网页滑动
+
+13.版本号：uexSearchBarView-3.0.1
+更新内容：* 搜索框
+
+14.版本号：uexSlidePager-3.0.12
+更新内容：* 适配iPhone6和iPhone6 Plus
+
+15.版本号：uex3DTouch-3.0.1
+更新内容：* 3DTouch 功能插件
+
+16.版本号：uexCall-3.0.3
+更新内容：* uexCall.call方法取消"应用程序需要拨打电话,是否确定拨号?"的提示
+
+17.版本号：uexCamera-3.0.2
+更新内容：* 插件改为arc，添加openInternal自定义相机接口，添加openViewCamera自定义view模式相机
+
+18.版本号：uexClipboard-3.0.3
+更新内容：* 修复被复制的文本包含换行符会导致插件异常的bug
+
+19.版本号：uexDataBaseMgr-3.0.4
+更新内容：* 重新解决uexDataBaseMgr插件IDE包创建表格失败的问题
+
+20.版本号：uexDocumentReader-3.0.4
+更新内容：* 解决读取txt文件乱码,无法读取xls文件的bug
+
+21.版本号：uexJsonXmlTrans-3.0.1
+更新内容：* JsonXmlTrans 插件
+
+22.版本号：uexKeyChain-3.0.1
+更新内容：* iOS钥匙串插件
+
+23.版本号：uexLocalNotification-3.0.6
+更新内容：* 删除info.plist
+
+24.版本号：uexLocation-3.0.23
+更新内容：* 更改为ARC工程
+
+25.版本号：uexLog-3.0.4
+更新内容：* 修复崩溃问题
+
+26.版本号：uexSMS-3.0.2
+更新内容：* 使用新版Xcode重新编译,支持arm64
+
+27.版本号：uexSensor-3.0.4
+更新内容：* 修复sendDataToJS时的崩溃问题
+
+28.版本号：uexTouchID-3.0.1
+更新内容：* TouchID功能插件
+
+29.版本号：uexZip-3.0.4
+更新内容：* 修改类名ZipArchive为UexZipArchive,解决与引擎的类名冲突
+
+30.版本号：uexSocketMgr-3.0.6
+更新内容：* 解决使用base64格式传输数据ios发送不成功的问题
+
+31.版本号：uexUploaderMgr-3.0.14
+更新内容：* 修改了上传进度条达不到100%
+
+32.版本号：uexXmlHttpMgr-3.0.15
+更新内容：* 删除info.plist
+***
+
 ### 2016/03/02版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.2_160224_01 更新内容：* 修复config.xml中配置的起始页面不支持https://协议的问题
