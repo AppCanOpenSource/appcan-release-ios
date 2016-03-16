@@ -1,4 +1,30 @@
 # appcan-release-ios
+### 2016/03/16版本更新记录
+####iOS插件：
+1.版本号：uexLoadingView-3.0.5
+
+更新内容：修复openCircleLoading在ios7上背景不透明的BUG
+
+2.版本号：uexScanner-3.1.6
+
+更新内容：添加charset字段设置编码
+
+
+3.版本号：uexImage-3.0.9
+
+更新内容：修复pick接口选取拍摄的照片时方向可能不正确的bug
+
+4.版本号：uexPopoverMenu3.0.0
+
+更新内容：新增弹出窗插件
+
+5.版本号：uexCamera-3.0.3
+
+更新内容：* 插件改为arc，添加openInternal自定义相机接口
+        * 添加openViewCamera自定义view模式相机接口
+
+
+***
 ### 2016/03/08版本更新记录
 ####iOS插件：
 1.版本号：uexCreditCardRec-3.0.4
