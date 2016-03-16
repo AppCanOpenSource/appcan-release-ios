@@ -3,16 +3,16 @@
 ####iOS插件：
 1.版本号：uexLoadingView-3.0.5
 
-更新内容：修复openCircleLoading在ios7上背景不透明的BUG
+更新内容：优化openCircleLoading在ios7上背景不透明
 
 2.版本号：uexScanner-3.1.6
 
-更新内容：添加charset字段设置编码
+更新内容：新增charset字段设置编码
 
 
 3.版本号：uexImage-3.0.9
 
-更新内容：修复pick接口选取拍摄的照片时方向可能不正确的bug
+更新内容：优化pick接口选取拍摄的照片时方向可能不正确
 
 4.版本号：uexPopoverMenu3.0.0
 
@@ -20,159 +20,159 @@
 
 5.版本号：uexCamera-3.0.3
 
-更新内容：* 插件改为arc，添加openInternal自定义相机接口
-        * 添加openViewCamera自定义view模式相机接口
+更新内容：* 优化插件改为arc，添加openInternal自定义相机接口
+        * 新增openViewCamera自定义view模式相机接口
 
 
 ***
 ### 2016/03/08版本更新记录
 ####iOS插件：
 1.版本号：uexCreditCardRec-3.0.4
-更新内容：* 支持iOS9
+更新内容：* 新增支持iOS9
 
 2.版本号：uexGestureUnlock-3.0.2
-更新内容：* 复maximumAllowTrialTimes拼写错误
+更新内容：* 修复maximumAllowTrialTimes拼写错误
 
 3.版本号：uexPDFReader-3.0.5
-更新内容：* 删除info.plist
+更新内容：* 优化info.plist
 
 4.版本号：uexActionSheet-3.0.7
-更新内容：* 修复textNColor属性失效的bug
+更新内容：* 优化textNColor属性失效的bug
 
 5.版本号：uexAreaPickerView-3.0.5	
-更新内容：* 修复clean时的崩溃问题
+更新内容：* 优化clean时的崩溃问题
 
 6.版本号：uexButton-3.0.5	
-更新内容：* 修复uexButton动态库在低版本手机上无法调用的问题
+更新内容：* 优化uexButton动态库在低版本手机上无法调用的问题
 
 7.版本号：uexButton-3.0.5	
-更新内容：* 修复uexButton动态库在低版本手机上无法调用的问题
+更新内容：* 优化uexButton动态库在低版本手机上无法调用的问题
 
 8.版本号：uexChatKeyboard-3.0.21	
-更新内容：* 修复自定义功能按钮和表情按钮重新打开会弹出键盘的bug
+更新内容：* 优化自定义功能按钮和表情按钮重新打开会弹出键盘的bug
 
 9.版本号：uexCoverFlow2-3.0.3
-更新内容：* 使用新版Xcode重新编译,支持arm64
+更新内容：* 新增新版Xcode重新编译,支持arm64
 
 10.版本号：uexEditDialog-3.0.2
-更新内容：* 使用新版Xcode重新编译,支持arm64
+更新内容：* 新增新版Xcode重新编译,支持arm64
 
 11.版本号：uexHexagonal-3.0.3
-更新内容：* 使用新版Xcode重新编译,支持arm64
+更新内容：* 新增新版Xcode重新编译,支持arm64
 
 12.版本号：uexIndexBar-3.0.7
-更新内容：* 索引表可以设置是否随网页滑动
+更新内容：* 新增索引表可以设置是否随网页滑动
 
 13.版本号：uexSearchBarView-3.0.1
-更新内容：* 搜索框
+更新内容：* 新增搜索框
 
 14.版本号：uexSlidePager-3.0.12
-更新内容：* 适配iPhone6和iPhone6 Plus
+更新内容：* 优化适配iPhone6和iPhone6 Plus
 
 15.版本号：uex3DTouch-3.0.1
-更新内容：* 3DTouch 功能插件
+更新内容：* 优化3DTouch 功能插件
 
 16.版本号：uexCall-3.0.3
-更新内容：* uexCall.call方法取消"应用程序需要拨打电话,是否确定拨号?"的提示
+更新内容：* 优化uexCall.call方法取消"应用程序需要拨打电话,是否确定拨号?"的提示
 
 17.版本号：uexCamera-3.0.2
-更新内容：* 插件改为arc，添加openInternal自定义相机接口，添加openViewCamera自定义view模式相机
+更新内容：* 优化插件改为arc，添加openInternal自定义相机接口，添加openViewCamera自定义view模式相机
 
 18.版本号：uexClipboard-3.0.3
-更新内容：* 修复被复制的文本包含换行符会导致插件异常的bug
+更新内容：* 优化被复制的文本包含换行符会导致插件异常的bug
 
 19.版本号：uexDataBaseMgr-3.0.4
-更新内容：* 重新解决uexDataBaseMgr插件IDE包创建表格失败的问题
+更新内容：* 优化uexDataBaseMgr插件IDE包创建表格失败的问题
 
 20.版本号：uexDocumentReader-3.0.4
-更新内容：* 解决读取txt文件乱码,无法读取xls文件的bug
+更新内容：* 优化读取txt文件乱码,无法读取xls文件的bug
 
 21.版本号：uexJsonXmlTrans-3.0.1
-更新内容：* JsonXmlTrans 插件
+更新内容：* 优化JsonXmlTrans 插件
 
 22.版本号：uexKeyChain-3.0.1
-更新内容：* iOS钥匙串插件
+更新内容：* 优化iOS钥匙串插件
 
 23.版本号：uexLocalNotification-3.0.6
-更新内容：* 删除info.plist
+更新内容：* 优化info.plist
 
 24.版本号：uexLocation-3.0.23
-更新内容：* 更改为ARC工程
+更新内容：* 优化为ARC工程
 
 25.版本号：uexLog-3.0.4
-更新内容：* 修复崩溃问题
+更新内容：* 优化崩溃问题
 
 26.版本号：uexSMS-3.0.2
-更新内容：* 使用新版Xcode重新编译,支持arm64
+更新内容：* 新增使用新版Xcode重新编译,支持arm64
 
 27.版本号：uexSensor-3.0.4
-更新内容：* 修复sendDataToJS时的崩溃问题
+更新内容：* 优化sendDataToJS时的崩溃问题
 
 28.版本号：uexTouchID-3.0.1
-更新内容：* TouchID功能插件
+更新内容：* 优化TouchID功能插件
 
 29.版本号：uexZip-3.0.4
-更新内容：* 修改类名ZipArchive为UexZipArchive,解决与引擎的类名冲突
+更新内容：* 优化类名ZipArchive为UexZipArchive,解决与引擎的类名冲突
 
 30.版本号：uexSocketMgr-3.0.6
-更新内容：* 解决使用base64格式传输数据ios发送不成功的问题
+更新内容：* 优化使用base64格式传输数据ios发送不成功的问题
 
 31.版本号：uexUploaderMgr-3.0.14
-更新内容：* 修改了上传进度条达不到100%
+更新内容：* 优化上传进度条达不到100%
 
 32.版本号：uexXmlHttpMgr-3.0.15
-更新内容：* 删除info.plist
+更新内容：* 优化info.plist
 ***
 
 ### 2016/03/02版本更新记录
 ####iOS引擎：
- 版本号：ios_Engine_3.2_160224_01 更新内容：* 修复config.xml中配置的起始页面不支持https://协议的问题
+ 版本号：ios_Engine_3.2_160224_01 更新内容：* 优化config.xml中配置的起始页面不支持https://协议的问题
  
 ####iOS插件：
-1. 版本号：uexCalendarView-3.0.5  更新内容：* 修复uexCalendarView切换年份时触发click事件的bug2. 版本号：uexDownloaderMgr-3.0.14  更新内容：* 修复在复用窗口中使用时回调丢失的bug3. 版本号：uexInAppPurchase-3.0.0   更新内容：* 新增iOS内购插件4. 版本号： uexScrollPicture-3.0.4   更新内容：    * 修复手滑动的时候下面轮播点不变的bug;    * 修改为不主动自动轮播    * 修改了轮播点颜色                                                                                       * 修复了viewId传Number会挂掉的bug    5. 版本号： uexAudio-3.0.14   更新内容：* 修改audio录的本地录音传到服务器上放不了bug6. 版本号： uexEasemob-3.0.19   更新内容：* 修复onMessageSent中群组消息的from和to参数不正确的问题7. 版本号： uexSecurityKeyboard-3.0.0   更新内容：* 新增uexSecurityKeyboard安全键盘输入框插件   
+1. 版本号：uexCalendarView-3.0.5  更新内容：* 优化uexCalendarView切换年份时触发click事件的bug2. 版本号：uexDownloaderMgr-3.0.14  更新内容：* 优化在复用窗口中使用时回调丢失的bug3. 版本号：uexInAppPurchase-3.0.0   更新内容：* 新增iOS内购插件4. 版本号： uexScrollPicture-3.0.4   更新内容：    * 优化手滑动的时候下面轮播点不变的bug;    * 优化为不主动自动轮播    * 优化了轮播点颜色                                                                                       * 优化了viewId传Number会挂掉的bug    5. 版本号： uexAudio-3.0.14   更新内容：* 优化audio录的本地录音传到服务器上放不了bug6. 版本号： uexEasemob-3.0.19   更新内容：* 优化onMessageSent中群组消息的from和to参数不正确的问题7. 版本号： uexSecurityKeyboard-3.0.0   更新内容：* 新增uexSecurityKeyboard安全键盘输入框插件   
   ***
 
 ### 2016/02/24版本更新记录
 ####iOS插件：
 1. 版本号：uexDevice-3.0.7
-    更新内容：* openSetting接口支持打开推送通知设置2. 版本号：uexControl-3.0.15   更新内容：* 修改无法打开带配置的日期选择器的BUG3. 版本号：uexSegmentControl-3.0.3   更新内容：* 修复onItemClick接口回调参数与文档及安卓不一致的BUG
+    更新内容：* openSetting接口支持打开推送通知设置2. 版本号：uexControl-3.0.15   更新内容：* 优化无法打开带配置的日期选择器的BUG3. 版本号：uexSegmentControl-3.0.3   更新内容：* 优化onItemClick接口回调参数与文档及安卓不一致的BUG
    ***
 ### 2016/02/22版本更新记录
 ####iOS插件：
-1. 版本号：uexDevice-3.0.6   更新内容：* 添加判断功能是否开启,以及打开设置界面接口2. 版本号：uexScrollPicture-3.0.3   更新内容：* 修复回调可能会被错误触发的bug3. 版本号：uexImage-3.0.8   更新内容：* openPicker接口打开相册时，默认滑动至最底端，以显示最新拍摄的照片4. 版本号：uexFileMgr-3.0.23   更新内容：* 修改工程为ARC;修复在复用窗口中使用时回调丢失的bug  ***
+1. 版本号：uexDevice-3.0.6   更新内容：* 新增判断功能是否开启,以及打开设置界面接口2. 版本号：uexScrollPicture-3.0.3   更新内容：* 优化回调可能会被错误触发的bug3. 版本号：uexImage-3.0.8   更新内容：* 优化openPicker接口打开相册时，默认滑动至最底端，以显示最新拍摄的照片4. 版本号：uexFileMgr-3.0.23   更新内容：* 优化工程为ARC;修复在复用窗口中使用时回调丢失的bug  ***
 
 ### 2016/01/26版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.2_160121_01 更新内容：
- * IDE下首次启动读取document下的widget包. * 修复iOS窗口打开路径问题,4.0云平台配置项引擎修改
+ * 优化IDE下首次启动读取document下的widget包. * 优化iOS窗口打开路径问题,4.0云平台配置项引擎修改
 ####iOS插件：
-1. 版本号：uexSina-3.0.6  更新内容：* uexSina添加分享图片可以分享网络图片的功能2. 版本号：uexWheel-3.0.14  更新内容：* 修复和天翼RTC插件一起打包时会冲突的bug    3. 版本号：uexAudio-3.0.13  更新内容：  * uexAudio插件有更新，修改amr格式文件路径不存在时播放崩溃  * uexAudio修复播放AMR音频完成时没有回调的问题4. 版本号：uexInputTextFieldView-3.0.7  更新内容： * 修复索引bundle内资源的路径错误而无法显示图片背景的BUG
+1. 版本号：uexSina-3.0.6  更新内容：* 新增uexSina添加分享图片可以分享网络图片的功能2. 版本号：uexWheel-3.0.14  更新内容：* 优化和天翼RTC插件一起打包时会冲突的bug    3. 版本号：uexAudio-3.0.13  更新内容：  * uexAudio插件有更新，优化amr格式文件路径不存在时播放崩溃  * uexAudio优化播放AMR音频完成时没有回调的问题4. 版本号：uexInputTextFieldView-3.0.7  更新内容： * 优化索引bundle内资源的路径错误而无法显示图片背景的BUG
   ***
 
 ### 2016/01/11版本更新记录
 ####iOS引擎：
- 版本号：ios_Engine_3.2_160109_01 更新内容：* uexWindow.createProgressDialog uexWindow.destroyProgressDialog 这2个接口 现在支持iOS
+ 版本号：ios_Engine_3.2_160109_01 更新内容：* 优化uexWindow.createProgressDialog uexWindow.destroyProgressDialog 这2个接口 现在支持iOS
 ####iOS插件：
 1. 版本号：uexBluetoothLE-3.0.4
-   更新内容：* 修复cbInit回调参数错误的bug
+   更新内容：* 优化cbInit回调参数错误的bug
 2. 版本号：uexContact-3.0.7
-   更新内容：* searchItem接口增加返回信息条数配置;addItem接口增加是否弹出提示框配置
+   更新内容：* 新增searchItem接口增加返回信息条数配置;addItem接口增加是否弹出提示框配置
 3. 版本号：uexESurfingRtc-3.0.8
-   更新内容：* 修改onGlobalStatus与cbCallStatus
+   更新内容：* 新增onGlobalStatus与cbCallStatus
 4. 版本号：uexGaodeMap-3.0.9
    更新内容：
-   * 添加IDE支持   * 可以通过接口设置APIKey   * 解决和高德导航冲突的问题
+   * 新增IDE支持   * 优化接口设置APIKey   * 优化和高德导航冲突的问题
 ***
 
 ### 2016/01/07版本更新记录
 ####iOS插件：
 1.版本号：uexWeiXin-3.0.19  更新内容：
-   * 修复getWeiXinLoginAccessToken失效的bug
- * 修复getLoginAccessToken在多次调用时无法刷新code导致结果异常的bug ***
+   * 优化getWeiXinLoginAccessToken失效的bug
+ * 优化getLoginAccessToken在多次调用时无法刷新code导致结果异常的bug ***
 
 ### 2015/12/31版本更新记录
 ####iOS插件：
-1. 版本号：uexEasemob-3.0.17     更新内容：* 修复getMessageHistory接口传入startMsgId但pagesize为0时取不到所有messages的问题2. 版本号：uexWeiXin-3.0.18     更新内容：    * 重写回调相关代码，支持setCallbackWindowName接口    * 添加IDE支持 ***
+1. 版本号：uexEasemob-3.0.17     更新内容：* 优化getMessageHistory接口传入startMsgId但pagesize为0时取不到所有messages的问题2. 版本号：uexWeiXin-3.0.18     更新内容：    * 重写回调相关代码，支持setCallbackWindowName接口    * 添加IDE支持 ***
 
 ### 2015/12/26版本更新记录
 ####iOS插件：
