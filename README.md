@@ -1,4 +1,27 @@
 # appcan-release-ios
+### 2016/03/26版本更新记录
+####iOS引擎：
+ 版本号：ios_Engine_3.3_160325_01 更新内容：
+ * 优化引擎支持的最低系统版本为7.0 * 优化引擎中插件调用部分代码用JavaScriptCore进行了重构(for 插件开发者)优化支持插件的同步调用，允许插件直接返回值给前端优化插件接收到的参数会正确的反映其数值类型，而不全是NSString优化可以实现独立于UIWebView的JS上下文,从而可以在后台运行JavaScript。优化以下引擎方法现在可以同步返回结果uexWindow.getUrlQueryuexWindow.getStateuexWidgetOne.getPlatform新增如下接口,具体说明详见引擎文档uexWindow.getWidthuexWindow.getHeightuexWindow.putLocalDatauexWindow.getLocalData	
+ 
+####iOS插件：
+1. 版本号：uexVideo-3.0.5	
+ 
+   更新内容：
+   * 优化了视频录制的接口——   * 支持控制录制时间;   * 支持控制录制分辨率;   * 支持控制录制视频质量;   * 优化了视频播放接口——   * 性能优化:采用全新的API去播放视频,优化了视频的加载速度,降低了CPU占用;   * 界面优化: UI美化;支持各种常用手势去控制播放;网络视频拥有预加载条提示;   * 支持小窗播放，支持小窗跟随网页滑动;   * 对全屏播放的细节做了处理:现在全屏模式下播放器强制横屏，并且不会随手机设置而自动旋转;   * 更多的可选参数去定制播放器界面;   * 为播放状态和播放器被关闭增加了监听;	
+   2. 版本号：uexScrawl-3.0.0	
+   更新内容：新增涂鸦功能插件	
+   3. 版本号：uexGaodeNavi-3.0.0 	
+   更新内容：新增高德导航插件	
+   4. 版本号：uexQcloudAV-3.0.0	
+   更新内容：新增腾讯云视频直播插件	
+   5. 版本号：uexNIM-3.0.0	
+   更新内容：新增网易云信插件	
+   6. 版本号：uexBackground-3.0.0	
+   更新内容：新增实现后台运行JS的功能（对应uexlocation插件更新了，配合测试）	7. 版本号：uexLocation-3.0.24	
+   更新内容：新功能，优化定位权限,支持后台定位
+  ***
+
 ### 2016/03/16版本更新记录
 ####iOS插件：
 1.版本号：uexLoadingView-3.0.5
