@@ -1,4 +1,15 @@
 # appcan-release-ios
+### 2016/04/15版本更新记录
+####iOS插件：
+1. 版本号：uexChatKeyboard-3.0.24	
+ 
+   更新内容：* 修改键盘“+”号切换键盘异常，修改发送按钮自定义（按钮背景色、高亮颜色、文字、字体大小、字体颜色）* 修改发送消息不能显示到最底部、修改录音从0开始	
+   						2. 版本号：uexInputTextFieldView-3.0.8	
+   更新内容：修改发送按钮自定义（按钮背景色、高亮颜色、文字、字体大小、字体颜色）							3. 版本号：uexInAppPurchase-3.0.2	
+   更新内容：优化内购插件		
+   					4. 版本号：uexXunfei-3.0.1	
+   更新内容：新增uexXunfei插件	
+   
 ### 2016/03/26版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.3_160325_01 更新内容：
@@ -47,6 +58,36 @@
         * 新增openViewCamera自定义view模式相机接口
 
 
+***
+### 2016/03/12版本更新记录
+####iOS引擎：
+1. 版本号：ios_Engine_3.2_160219_01			
+
+   更新内容：* 引擎新添share 调用系统分享接口
+
+####iOS插件：
+1. 版本号：uexScanner-3.1.6	
+
+   更新内容：添加charset字段设置编码
+   
+2. 版本号：uexPopoverMenu3.0.0	
+
+   更新内容：新弹出窗插件
+***
+### 2016/03/12版本更新记录
+####iOS引擎：
+1. 版本号：ios_Engine_3.3_160307_01
+
+   更新内容：* uexWindow添加获取window宽高的方法
+
+####iOS插件：
+1. 版本号：uexLoadingView-3.0.5
+   更新内容：解决空指针报错问题2. 版本号：uexKeyChain-3.0.2
+   更新内容：添加接口getDeviceUniqueIdentifier3. 版本号：uexSlidePager-3.0.14
+   更新内容：openSlidePager接口添加option参数4. 版本号：uexCamera-3.0.3
+   更新内容：插件改为arc，添加openInternal自定义相机接口，添加openViewCamera自定义view模式相机接口5. 版本号：uexImage-3.0.9
+   更新内容：修复pick接口选取拍摄的照片时方向可能不正确的bug6. 版本号：uexMobSMS-3.0.0
+   更新内容：新增iOS短信验码证插件
 ***
 ### 2016/03/08版本更新记录
 ####iOS插件：
