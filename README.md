@@ -1,4 +1,21 @@
 # appcan-release-ios
+### 2016/04/23版本更新记录
+####iOS插件：
+1. 版本号：uexFileMgr-3.0.24
+
+   更新内容：	
+   * 新增bundle方式引用资源，优化IDE插件不显示图标 
+   * 优化getFileSizeByPath接口							2. 版本号：uexEasemob-3.0.20	
+   更新内容：	优化加入公开群有时会无响应的问题							3. 版本号：uexControl-3.0.16	
+   更新内容：	优化对3.3引擎下非string参数造成闪退的情况进行了处理							4. 版本号：uexLoadingView-3.0.6	
+   更新内容：	新增IDE支持		
+   					5. 版本号：uexAudio-3.0.18	
+   更新内容：
+   * 优化无法识别播放无后缀文件  
+   * 优化播放amr格式时无回调							6. 版本号：uexCamera-3.0.7	
+   更新内容：创建bundle存储资源文件，适配国际化							7. 版本号：uexWheelPickView-3.0.0	
+   更新内容：新增uexWheelPickView插件
+***
 ### 2016/04/15版本更新记录
 ####iOS插件：
 1. 版本号：uexChatKeyboard-3.0.24	
@@ -9,7 +26,7 @@
    更新内容：优化内购插件		
    					4. 版本号：uexXunfei-3.0.1	
    更新内容：新增uexXunfei插件	
-   
+ ***  
 ### 2016/03/26版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.3_160325_01 更新内容：
