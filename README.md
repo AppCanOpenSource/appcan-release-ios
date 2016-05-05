@@ -1,4 +1,22 @@
 # appcan-release-ios
+### 2016/05/04版本更新记录
+####iOS插件：
+1. 版本号：uex3DTouch-3.0.2	
+   更新内容：修复可能会与其他包含3DTouch功能的插件冲突的问题						2. 版本号：uexBaiduMap-3.1.17	
+   更新内容：修复removeMakersOverlay接口传不当参数会闪退的问题							3. 版本号：uexCamera360-3.0.0		
+   更新内容：新增uexCamera360插件						4. 版本号：uexDevice-3.0.9
+   更新内容：修改获取设备型号的方式，添加设备型号							5. 版本号：uexImage-3.0.10	
+   更新内容：修复在4/4s机型上裁剪接口闪退的问题							6. 版本号：uexInAppPurchase-3.0.3
+   更新内容：更新方法
+   						7. 版本号：uexLocation-3.0.26	
+   更新内容：新增坐标系转换接口,支持wgs84,gcj02,bd09格式相互转换						8. 版本号：uexVideo-3.0.6	
+   更新内容：现在在强制全屏模式下,一定会显示关闭按钮
+
+9. 版本号：uexWheelPickView-3.0.1	
+   更新内容：新增默认值选项	
+10. 版本号：uexKeyChain-3.0.2 
+   更新内容：添加接口getDeviceUniqueIdentifier	
+   ***
 ### 2016/04/23版本更新记录
 ####iOS插件：
 1. 版本号：uexFileMgr-3.0.24
