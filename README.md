@@ -1,4 +1,9 @@
 # appcan-release-ios
+### 2016/05/06版本更新记录
+####iOS引擎：
+ 版本号：ios_Engine_3.3_160506_01 更新内容：
+* openMultiPopover对JS SDK做兼容性处理;* 修复当uexWidget.onLoadByOtherApp、uexWidget.onSuspend、uexWidget.onEnterBackground、uexWidget.onResume、uexWidget.onEnterForeground、window.uexStart这几个接口未定义时可能会产生JS警告的问题
+***
 ### 2016/05/05版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.3_160504_01 更新内容：
