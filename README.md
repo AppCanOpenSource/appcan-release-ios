@@ -1,8 +1,10 @@
 # appcan-release-ios
-### 2016/05/04版本更新记录
+### 2016/05/05版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.3_160504_01 更新内容：
-新增：                                                             * uexWindow.prompt添加hint参数                                                      * 新增uexWindow.openPresentWindow接口* 新增uexWindow.publishChannelNotificationForJson接口* 引擎工具库添加若干新方法,为原生插件开发者提供便利                                                                                           * 引擎工具库头文件添加详细注释,为原生插件开发者提供便利 优化：* 优化setMultiPopoverFrame只能改变multiPopover的frame而不能改变其中的网页的frame的问题* 优化setMultiPopoverFlippingEnabled的参数问题，和文档保持一致* 优化前端已经URLEncode过的URL在引擎中会被再次URLEncode的问题* 优化上拉加载view不显示的问题* openPopover现在会先展示UI再加载网页   * 优化uexWindow.onPopoverLoadFinishInRootWnd不是指向最终跳转的URL的问题  * 优化引擎部分接口当传入不正确的参数时会导致闪退的问题
+新增：                 
+                                            * uexWindow.prompt添加hint参数                                                      * 新增uexWindow.openPresentWindow接口* 新增uexWindow.publishChannelNotificationForJson接口* 新增uexWindow.disturbLongPressGesture接口  * 引擎工具库添加若干新方法,为原生插件开发者提供便利                                                                                           * 引擎工具库头文件添加详细注释,为原生插件开发者提供便利 优化：
+* 优化setMultiPopoverFrame只能改变multiPopover的frame而不能改变其中的网页的frame的问题* 优化setMultiPopoverFlippingEnabled的参数问题，和文档保持一致* 优化前端已经URLEncode过的URL在引擎中会被再次URLEncode的问题* 优化上拉加载view不显示的问题* openPopover现在会先展示UI再加载网页   * 优化uexWindow.onPopoverLoadFinishInRootWnd不是指向最终跳转的URL的问题  * 优化引擎部分接口当传入不正确的参数时会导致闪退的问题
 
 ####iOS插件：
 1. 版本号：uex3DTouch-3.0.2	
@@ -23,9 +25,14 @@
 
 11. 版本号：uexCamera-3.0.8	
 
-    更新内容：cbOpenViewCamera回调方法,返回的JSON中增加字段label,替换之前的location							12. 版本号：uexContact-3.0.10	
-    更新内容：修复cbSearch回调与安卓不一致,参数命名不一致的问题							13. 版本号：uexEasemob-3.0.22	
-    更新内容：initEasemob接口新增isAutoAcceptGroupInvitation参数；消息接口新增extObj参数以适配环信客服功能；group内新增群组加人的相关接口							14. 版本号：uexFileMgr-3.0.25	
+    更新内容：cbOpenViewCamera回调方法,返回的JSON中增加字段label,替换之前的location										12. 版本号：uexContact-3.0.10	
+    更新内容：
+    * 新增search,modifyWithId,deleteWithId接口以及cbSearch,cbModifyWithId,cbDeleteWithId回调 
+    * 修复cbSearch回调与安卓不一致,参数命名不一致的问题										13. 版本号：uexEasemob-3.0.22	
+    更新内容：
+    * 升级环信SDK至3.1.2  
+    * 添加客服功能 
+    * group新增黑名单							14. 版本号：uexFileMgr-3.0.25	
     更新内容：添加base64支持	   ***
 ### 2016/04/23版本更新记录
 ####iOS插件：
