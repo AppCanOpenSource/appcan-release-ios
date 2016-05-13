@@ -1,4 +1,18 @@
 # appcan-release-ios
+### 2016/05/13版本更新记录
+####iOS插件：
+
+1. 版本号：uexAliPay-3.0.9	
+
+   更新内容：
+   * 更新支付宝SDK到15.0.6 
+   * 优化3.3引擎下传错误的参数类型可能会造成闪退的问题2. 版本号：uexEasemob-3.0.23	
+   更新内容：优化删除EaseUIResource.bundle内会引起上架失败的info.plist；3. 版本号：uexQQ-3.0.14	
+   更新内容：修改回调逻辑,解决presentWindow收不到回调的问题4. 版本号：uexScanner-3.1.7	
+   更新内容：优化为ios7.0以上调用系统库扫描5. 版本号：uexJPush-3.0.8	
+   更新内容：更新JPush SDK到2.1.6 6. 版本号：uexScrawl-3.0.1	
+   更新内容：优化点击保存按钮无法关闭窗口的问题，与android保持一致。
+***
 ### 2016/05/06版本更新记录
 ####iOS引擎：
  版本号：ios_Engine_3.3_160506_01 更新内容：
