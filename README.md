@@ -1,4 +1,32 @@
 # appcan-release-ios
+### 2016/05/20版本更新记录
+####iOS引擎：
+
+版本号：ios_Engine_3.4_160520_01	
+
+更新内容：
+
+* 新增uexWidget.closeLoading                                                                           * 新增uexWindow.setLoadingImagePath                                                                     
+* 支持自定义错误页面* 修复启动页面为https远程网页时的一些问题* 修复一个可能导致JS TypeError报错的问题* CBrowserWindow 改为ARC,修复引擎在加载页面时会出现卡死的问题
+   
+####iOS插件：
+1. 版本号：uexDataBaseMgr-3.0.5	
+
+   更新内容：*优化数据包含特殊字符时回调结果错误的问题
+   2. 版本号：uexUploaderMgr-3.0.15	
+   更新内容：用AFNetWorking重写;支持多文件上传;支持后台上传
+   3. 版本号：uexTabBarWithPopMenu-3.0.0	
+   更新内容：新增uexTabBarWithPopMenu 插件
+4. 版本号：uexALiBaiChuan -3.0.0	
+   更新内容：新增阿里百川插件
+5. 版本号：uexQupai-3.0.0	
+   更新内容：新增趣拍插件
+6. 版本号：uexNBlistview-3.0.0	
+   更新内容：新增uexNBlistview插件
+
+
+***
+
 ### 2016/05/18版本更新记录
 ####iOS插件：
 
