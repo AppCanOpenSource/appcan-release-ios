@@ -1,4 +1,17 @@
 # appcan-release-ios
+### 2016/05/28版本更新记录  
+####iOS插件：					1. 版本号：uexScanner-3.1.7	
+   更新内容：* 优化为ios7.0以上调用系统库扫描										2. 版本号：uexControl-3.0.17	
+   更新内容：* 优化uexControl.openTimePicker(hour,minute)可能导致闪退的bug										3. 版本号：uexDevice-3.0.10	
+   更新内容：* openSetting接口支持ios7.0+ 										4. 版本号：uexUploaderMgr-3.0.16
+   更新内容：	* 对于自签名的https服务器,不再校验域名										5. 版本号：uexScrawl-3.0.2	
+   更新内容：* 修复一处与nblistview相冲突的问题										6. 版本号：uexSecurityKeyboard-3.0.1	
+   更新内容：* 修复一处与nblistview相冲突的问题										7. 版本号：uexBackground-3.3.1	
+   更新内容：* 优化一处循环引用的错误										8. 版本号：uexXmlHttpMgr-3.0.16	
+   更新内容：* 用AFNetWorking重构										9. 版本号：uexAliPay-3.0.10 	
+   更新内容：* 更新支付宝SDK到15.1.3										10. 版本号：uexInAppPurchase-3.0.4	
+   更新内容：* 新增接口canMakePay,废弃多余监听
+***
 ### 2016/05/20版本更新记录
 ####iOS引擎：
 
