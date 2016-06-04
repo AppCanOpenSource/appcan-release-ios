@@ -1,4 +1,19 @@
 # appcan-release-ios
+### 2016/06/04版本更新记录  
+####iOS插件：												1. 版本号：uexNIM-3.0.2	
+   更新内容：
+   * 新增聊天室功能；   * 升级SDK到2.4.0-支持IPv6；打包需用仅支持iOS8.0+的引擎打包										2. 版本号：uexSocketMgr-3.0.8	
+   更新内容：
+   * 添加创建连接时设置编码参数 
+   * 更换为GCDAsyncSocket库,支持ipv6										3. 版本号：uexSina-3.0.8	
+   更新内容：* 更新SDK到3.1.4，支持ivp6										4. 版本号：uexLog-3.0.6	
+   更新内容：
+   * GCDAsyncUdpSocket库更换为framework   * 若当前widget没有配置logIP,会使用主widget配置的logIP，解决uexBackground环境中uexLog插件无效的问题   * 更新插件IDE工程"										5. 版本号：uexJPush-3.0.9	
+   更新内容：* 更新JPush SDK到2.1.7 -支持IPv6										6. 版本号：uexLocation-3.0.27	
+   更新内容：* 在应用不支持后台定位时,只会请求仅使用中进行定位的权限										7. 版本号：uexFileMgr-3.0.26	
+   更新内容：* 修复readFile被错误转义的问题										8. 版本号：uexBaiduMap-3.1.18	
+   更新内容：* 升级SDK到3.0.0-支持IPv6；	
+   ***							
 ### 2016/05/28版本更新记录  
 ####iOS插件：					1. 版本号：uexScanner-3.1.7	
    更新内容：* 优化为ios7.0以上调用系统库扫描										2. 版本号：uexControl-3.0.17	
