@@ -1,4 +1,13 @@
 # appcan-release-ios
+### 2016/06/12版本更新记录
+####iOS插件：
+										1. 版本号：uexUploaderMgr-3.0.17	
+   更新内容：* 优化maxWidth参数异常的问题2. 版本号：uexEasemob-3.0.24	
+   更新内容：* 升级SDK到3.1.3-支持IPv63. 版本号：uexDownloaderMgr-3.3.15	
+   更新内容：* 用AFNetWorking重构 *支持ipv64. 版本号：uexTestinCrash-3.0.2	
+   更新内容：* SDK更新为CrashMaster.framework,支持ipv6。5. 版本号：uexBaiduNavi-3.0.1	
+   更新内容：* 升级SDK2.0.7-支持IPv6;必须开启后台权限
+***
 ### 2016/06/04版本更新记录  
 ####iOS插件：												1. 版本号：uexNIM-3.0.2	
    更新内容：
