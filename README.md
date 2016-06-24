@@ -1,4 +1,19 @@
 # appcan-release-ios
+### 2016/06/24版本更新记录
+####iOS引擎：
+
+版本号：ios_Engine_3.4_160622_01
+
+更新内容：
+   * 修复wgtobj.isDebug取值错误的问题;   * 允许通过focus()方法打开软键盘; 
+   * 加密库更新,支持对 xxx.js?v=123 类型引入的js和css文件进行解密
+
+
+####iOS插件：
+1. 版本号：uexXmlHttpMgr-3.0.17		
+   更新内容：* setPostData支持Number类型的value;除assets-library下的路径的文件,插件不再对图片做额外处理
+***
+
 ### 2016/06/12版本更新记录
 ####iOS插件：
 										1. 版本号：uexUploaderMgr-3.0.17	
