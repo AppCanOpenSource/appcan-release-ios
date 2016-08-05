@@ -1,5 +1,9 @@
 # appcan-release-ios
-
+### 2016/08/05版本更新记录####iOS引擎：版本号：ios_Engine_3.4_160802_01	
+更新内容：
+* 修复uexWindow.share无效的问题 
+* 多浮动窗口在指定位置添加自定义scrollview，适配多浮动窗口横屏。uexWidget添加getMBaaSHost接口，和安卓统一 
+* 修改cbIsAppInstalled参数和文档一致
 ### 2016/07/29版本更新记录
 ####iOS插件：1. 版本号：uexBaiduMap-3.1.19	
    更新内容：修复点击标注无法触发监听的bug2. 版本号：uexCamera-3.0.11	
