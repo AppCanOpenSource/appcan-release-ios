@@ -1,4 +1,7 @@
 # appcan-release-ios
+### 2016/08/12版本更新记录####iOS引擎：版本号：ios_Engine_3.4_160812_01
+更新内容：修改setMultiPopoverFrame设置contentOffset bug
+
 ### 2016/08/05版本更新记录####iOS引擎：版本号：ios_Engine_3.4_160802_01	
 更新内容：
 * 修复uexWindow.share无效的问题 
