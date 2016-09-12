@@ -1,4 +1,13 @@
 # appcan-release-ios
+
+### 2016/9/9版本更新记录
+
+#### iOS插件：
+1. 版本号：uexLocation-iOS-3.0.29		
+
+   更新内容：新增getAddressByType接口，支持指定类型的经纬度返回
+
+
 ### 2016/08/12版本更新记录####iOS引擎：版本号：ios_Engine_3.4_160812_01
 更新内容：修改setMultiPopoverFrame设置contentOffset bug
 
