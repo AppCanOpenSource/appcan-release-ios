@@ -1,5 +1,7 @@
 # appcan-release-ios
 
+### 2016/9/20版本更新记录   #### iOS插件：1. 版本号：uexMQTT-iOS-3.3.0		   更新内容：新增MQTT插件
+
 ### 2016/9/18版本更新记录   #### iOS插件：1. 版本号：uexChatKeyboard-iOS-3.0.28		   更新内容：添加@好友相关接口
 
 ### 2016/9/13版本更新记录#### iOS插件：1. 版本号：uexSecurityKeyboard-iOS-3.0.2		   更新内容：新增isScrollWithWeb参数控制是否随网页滚动#### iOS引擎： 版本号：ios_Engine_3.4_160830_01		   更新内容：移除setAppVersion: 改用setWidgetVersion:
