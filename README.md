@@ -1,5 +1,7 @@
 # appcan-release-ios
 
+### 2016/9/23版本更新记录   #### iOS插件：1. 版本号：uexDocumentReader-iOS-3.0.6	   更新内容：修复与打包时IOS状态栏设置相冲突的问题
+
 ### 2016/9/20版本更新记录   #### iOS插件：1. 版本号：uexMQTT-iOS-3.3.0		   更新内容：新增MQTT插件
 
 ### 2016/9/18版本更新记录   #### iOS插件：1. 版本号：uexChatKeyboard-iOS-3.0.28		   更新内容：添加@好友相关接口
