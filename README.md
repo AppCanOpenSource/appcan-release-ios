@@ -1,5 +1,7 @@
 # appcan-release-ios
 
+### 2016/10/26版本更新记录#### iOS插件：1. 版本号：uexShakeView-iOS-3.0.2	   更新内容：新增参数，支持界面自定义
+
 ### 2016/10/20版本更新记录#### iOS插件：1. 版本号：uexScanner-iOS-3.1.11		   更新内容：新增recognizeFromImage方法
 
 ### 2016/10/18版本更新记录#### iOS插件：1. 版本号：uexChatKeyboard-iOS-3.0.29		   更新内容：onAt相关功能改为onInputKeyword#### iOS引擎： 版本号：ios_Engine_3.4_161018_01		   更新内容：修复uexDataBaseMgr.transaction可能导致卡死的问题
