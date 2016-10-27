@@ -1,5 +1,9 @@
 # appcan-release-ios
 
+### 2016/10/27版本更新记录#### iOS插件：1. 版本号：uexUmeng-iOS-3.0.3	   更新内容：友盟SDK更新
+
+2. 版本号：uexDevice-iOS-3.0.13	   更新内容：移除蓝牙检测功能;设备列表添加iPhone7及iPhone7P
+
 ### 2016/10/26版本更新记录#### iOS插件：1. 版本号：uexShakeView-iOS-3.0.2	   更新内容：新增参数，支持界面自定义
 
 ### 2016/10/20版本更新记录#### iOS插件：1. 版本号：uexScanner-iOS-3.1.11		   更新内容：新增recognizeFromImage方法
