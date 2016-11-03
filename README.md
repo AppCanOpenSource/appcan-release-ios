@@ -1,5 +1,7 @@
 # appcan-release-ios
 
+### 2016/11/3版本更新记录#### iOS插件：1. 版本号：uexHexagonal-iOS-3.0.5	   更新内容：更换为framework
+
 ### 2016/11/2版本更新记录#### iOS插件：1. 版本号：uexSearchBarView-iOS-3.0.3	   更新内容：新增字符联想功能
 
 ### 2016/10/27版本更新记录#### iOS插件：1. 版本号：uexUmeng-iOS-3.0.3	   更新内容：友盟SDK更新
