@@ -1,5 +1,12 @@
 # appcan-release-ios
 
+### 2017/3/7版本更新记录
+
+#### iOS插件：
+1. 版本号：uexESurfingRtc-iOS-3.0.19	
+
+   更新内容：修复bug;接入原生动态库;支持https;支持点对点推送接听
+
 ### 2016/11/3版本更新记录#### iOS插件：1. 版本号：uexHexagonal-iOS-3.0.5	   更新内容：更换为framework
 
 ### 2016/11/2版本更新记录#### iOS插件：1. 版本号：uexSearchBarView-iOS-3.0.3	   更新内容：新增字符联想功能
